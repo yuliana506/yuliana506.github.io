@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Perpustakan Kota Madiun</title>
+        <link rel="stylesheet" href="style/styles.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-logo"><img src="img/logo_kota_madiun.png" alt="logo_kota_madiun" height="150px"> </div>
+            <div class="header-title" >
+                <a href="index.html">Klinik Kabupaten Madiun</a>
+            </div>
+        </div>
+        
+     <br>
+     <!-- Input Text -->
+    <form action="formulir.html" method="get">
+    <div class="form-group">
+    <label for="nama_kamu"> Nama:</label>
+    <input type="text" id="nama_kamu" for="nama_kamu">
+    </div>
+    <br>
+    <!-- pasword -->
+     <div class="form-group">
+        <label for="pasword">Password</label>
+        <input type="text" id="password" for="password">
+        <br>
+      </div>
+      <br>
+      <!-- checkbox -->
+       <div class="form-group">
+            <label for="Genre">Gejala</label>
+            <br>
+            <input type="checkbox" id="gejala_batuk" > Batuk
+            <input type="checkbox" id="gejala_panas" >Panas
+            <input type="checkbox" id="gejala_pilek" >pilek
+        </div>
+        <br>
+        <!-- radio -->
+         <div class="form-group">
+        <label for="jenis_kelamin">jenis_kelamin</label>
+        <br>
+        <input type="radio" id="Laki-Laki" for="jenis_kelamin" >
+        Laki-Laki
+        <input type="radio" id="perempuan" for="jenis_kelamin" >
+        perempuan
+        </div>
+        <br>
+         <!-- submit -->
+                 <!-- <form action="formulir.html" method="get"></form> -->
+        <div class="form-group">
+            <label for="asal_kota">Asal kota</label>
+            <select name="asal_kota">
+           <option type="option"  value="Kota_jta" for="jenis_buku">Novel</option>
+           <option type="option"  value="Kota_bandung" for="jenis_buku">Komik</option>
+           <option type="option"  value="Kota_semarang" for="jens_buku">Pengetahuan</option>
+           </select>
+        </div>
+        <br>
+        <!-- <form action="formulir.html" method="get"></form> -->
+        <label for="komentar"> Komentar Anda:</label>
+        <br>
+        <textarea name="komentar_anda" for="komentar" rows="5" cols="20">
+            silahkan katan isi hati anda
+        </textarea>
+        <br>
+        <input type="submit" value="Mulai Proses!">
+
+    </body>
+
+</html>
